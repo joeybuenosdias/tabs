@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "version": "0.0.1",
+    "name": "tabs",
+    "description": "Chrome extension for new tabs",
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "permissions": [
+        "tabs"
+    ],
+    "browser_action": {
+        "default_icon": {
+            "16": "roxy-favicon-16.png",
+            "32": "roxy-favicon-32.png",
+            "48": "roxy-favicon-64.png",
+            "128": "roxy-favicon-128.png"
+          }
+    }
+}
